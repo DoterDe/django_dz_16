@@ -1,0 +1,16 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="{% static 'style.css' %}">
+</head>
+<body>
+    <form class="create" method="post">{% csrf_token %}
+        <h1 class="data">{{ form}}</h1>
+        <input type="submit" value="Update">
+    </form>
+</body>
+</html>

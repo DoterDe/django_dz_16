@@ -1,0 +1,49 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: aqua;
+}
+.main{
+    font-size: 100px;
+    color: rgb(70, 180, 143);
+}
+a{
+    text-decoration: none;
+    color: blue;
+    font-size: 50px;
+}
+.book{
+    background-color: rgb(0, 153, 254);
+    border-radius: 25px;
+}
+h1{
+    margin-left: 50px;
+    margin-right: 50px;
+}
+.nav{
+    display: flex;
+    gap: 50px;
+    justify-content: center;
+    align-items: center;
+}
+.create{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    background-color: rgb(71, 71, 148);
+    border-radius: 25px;
+}
+.data{
+    margin-top: 50px;
+    margin-left: 50px;
+    margin-right: 50px;
+    
+}
+input{
+
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-bottom: 50px;
+}
